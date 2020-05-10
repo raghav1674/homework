@@ -31,6 +31,10 @@
       </body>  
  </html>  
  <script>  
+document.body.addEventListener("mousemove",(e)=>{
+document.body.backgroundColor=`rgb(${e.offsetx},${e.offsety},154)`
+});
+
  $(document).ready(function(){  
       function autoSave()  
       {  
