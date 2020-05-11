@@ -30,7 +30,7 @@
            </div>
  <script>  
 document.body.addEventListener("mousemove",(e)=>{
-document.body.backgroundColor=`rgb(${e.offsetx},${e.offsety},154)`
+document.body.backgroundColor=`rgb(120,200,154)`
 });
 </script>  
       </body>  
