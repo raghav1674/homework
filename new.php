@@ -27,13 +27,16 @@
                      <input type="hidden" name="post_id" id="post_id" />  
                      <div id="autoSave"></div>  
                 </div>  
-           </div>  
-      </body>  
- </html>  
+           </div>
  <script>  
 document.body.addEventListener("mousemove",(e)=>{
 document.body.backgroundColor=`rgb(${e.offsetx},${e.offsety},154)`
 });
+</script>  
+      </body>  
+ </html>  
+ <script>  
+
 
  $(document).ready(function(){  
       function autoSave()  
